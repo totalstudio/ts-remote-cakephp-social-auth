@@ -3,7 +3,7 @@
     "description": "A CakePHP plugin which allows you to authenticate using social providers like Facebook/Google/Twitter etc.",
     "type": "cakephp-plugin",
     "require": {
-        "cakephp/cakephp": "^4.1",
+        "cakephp/cakephp": "^5.0",
         "socialconnect/auth": "^3.1"
     },
     "require-dev": {
