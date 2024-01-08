@@ -118,7 +118,7 @@ echo $this->Form->postLink(
         'controller' => 'Auth',
         'action' => 'login',
         'provider' => 'facebook',
-        '?' => ['redirect' => $this->request->getQuery('redirect')]
+        '?' => ['redirect' => $this->getRequest()->getQuery('redirect')]
     ]
 );
 ```

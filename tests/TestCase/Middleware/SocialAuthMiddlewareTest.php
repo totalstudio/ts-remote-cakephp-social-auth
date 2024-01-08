@@ -36,7 +36,7 @@ class SocialAuthMiddlewareTest extends TestCase
 
         $_SERVER['REQUEST_URI'] = '/';
         $this->request = ServerRequestFactory::fromGlobals();
-        $this->request = $this->request->withAttribute('webroot', '/');
+        $this->request = $this->getRequest()->withAttribute('webroot', '/');
         $this->handler = new TestRequestHandler();
     }
 
